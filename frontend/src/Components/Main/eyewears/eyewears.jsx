@@ -8,7 +8,7 @@ function Eyewears() {
 
     const fetchAll = async () => {
         try {
-            const res = await fetch('https://lenskart-project-zvc5.onrender.com/eyewear')
+            const res = await fetch('https://lenskart-replica.onrender.com/eyewear')
             const data = await res.json()
             setEyewears(data.eyewears) // Access the eyewears array from the response
             console.log(data)

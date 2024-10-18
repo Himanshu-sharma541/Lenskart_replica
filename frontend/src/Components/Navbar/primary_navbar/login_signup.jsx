@@ -71,7 +71,7 @@ function LoginSignUp({ onToggle, isOpen, onClose }) {
     }
 
     try {
-      const response = await axios.post(`https://lenskart-project-zvc5.onrender.com/user/register`, data);
+      const response = await axios.post(`https://lenskart-replica.onrender.com/user/register`, data);
 
       setData(initialData);
       console.log(response)
@@ -129,7 +129,7 @@ function LoginSignUp({ onToggle, isOpen, onClose }) {
     }
 
     try {
-      const response = await axios.post(`https://lenskart-project-zvc5.onrender.com/user/login`, data);
+      const response = await axios.post(`https://lenskart-replica.onrender.com/user/login`, data);
 
       setData(initialData);
       console.log(response)
